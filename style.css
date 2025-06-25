@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(15, 12, 55);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(67 16 116);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+main hr {
+    border: 0;
+    background-color: rgb(136, 136, 226);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left {
+    font-size: 1.5rem;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+}
+.firstSection > div {
+    width: 30%;
+}
+.leftSection {
+    font-size: 2.5rem;
+}
+.rightSection img {
+    width: 100%;
+}
+.purple {
+    color: rgb(194, 140, 245);
+}
+#element {
+    color: rgb(194, 140, 245);
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+.text-grey {
+    color: gray;
+}
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical {
+    background-color: white;
+    width: 1px;
+    height: 30px;
+    margin: 0px 171px;
+}
+.image-top {
+    width: 70px;
+    position: relative;
+    top: -60px;
+    left: -10px;
+}
+.vertical-title {
+    position: relative;
+    top: -20px;
+    width: 250px;
+}
+.vertical-desc {
+    position: relative;
+    top: -15px;
+    width: 240px;
+    font-size: 10px;
+    color: gray;
+}
+footer {
+    background-color: #080624;
+}
+.footer {
+    display: flex;
+    padding: 25px 125px;
+    justify-content: space-evenly;
+}
+.footer ul {
+    list-style: none;
+}
+.footer > div {
+    width: 220px;
+}
+footer .footer-rights {
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
+.leftSection .btn {
+    background: #433572;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    background-color: #342959;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.project-container {
+    max-width: 900px;
+    margin: auto;
+}
+.project {
+    margin-bottom: 40px;
+}
+.project h3 {
+    color: #c792ea;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+.tech-stack {
+    color: #aaa;
+    margin-bottom: 5px;
+    font-size: 0.5rem;
+}
+.project p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* About Section */
+#about {
+    background-color: #0d0b26;
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+#about .container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #c792ea;
+}
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #c792ea;
+}
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #0d0b26;
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+#skills .container {
+    max-width: 900px;
+    margin: auto;
+}
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #c792ea;
+}
+.skill-category {
+    margin-bottom: 30px;
+}
+.skill-category h3 {
+    color: #82aaff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skill-badge {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    border: 1px solid #c792ea;
+    transition: background 0.3s ease;
+}
+.skill-badge:hover {
+    background-color: #c792ea;
+    color: #0d0b26;
+}
